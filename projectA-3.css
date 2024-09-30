@@ -1,0 +1,104 @@
+
+/* GNB */
+div.gnb{
+    background-color: #ffbd72;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+div.gnb>div.logo{
+    padding-left: 40px;
+    align-content: center;
+}
+div.gnb>div.menu{
+    display: flex;
+    padding-right: 40px;
+}
+div.gnb>div.menu>div.mainmenu{
+    padding-right: 30px;
+    align-content: center;
+}
+
+
+/* Navigation */
+div.navigation{
+    background-color: #9b9a98;
+    display: flex;
+}
+div.navigation>div.category{
+    align-items: center;
+}
+div.navigation>div.category>div.title{}
+div.navigation>div.category>div.servemenu{}
+div.navigation>div.category>div.servemenu>div.serve{}
+
+
+/* Main */
+div.main{
+    background-color: #dadada;
+}
+div.main>div.image{}
+div.main>div.textarea{
+    border: #dadada;
+    padding-left: 120px;
+    height: 600px;
+}
+div.main>div.textarea>div.logo{}
+div.main>div.textarea>div.textwrap{}
+div.main>div.textarea>div.textwrap>div.text{}
+div.main>div.textarea>div.textwrap>div.button{}
+div.main>div.textarea>div.button{}
+
+
+/* Contents cnt01 */
+div.contents.cnt01{}
+div.contents.cnt01>div.header{}
+div.contents.cnt01>div.header>div.title{}
+div.contents.cnt01>div.header>div.servetext{}
+div.contents.cnt01>div.section{}
+div.contents.cnt01>div.section>div.article{}
+div.contents.cnt01>div.section>div.article>div.image{}
+div.contents.cnt01>div.section>div.article>div.text{}
+div.contents.cnt01>div.section>div.article>div.text>div.title{}
+div.contents.cnt01>div.section>div.article>div.text>div.servetext{}
+div.contents.cnt01>div.section>div.article>div.text>div.sns{}
+div.contents.cnt01>div.section>div.article>div.text>div.sns>div.icon{}
+
+
+/* Banner */
+div.banner{}
+div.banner>div.image{}
+
+
+/* Contents cnt02 */
+div.contents.cnt02{}
+div.contents.cnt02>div.header{}
+div.contents.cnt02>div.header>div.title{}
+div.contents.cnt02>div.header>div.servetext{}
+div.contents.cnt02>div.section{}
+div.contents.cnt02>div.section>div.article.left{}
+div.contents.cnt02>div.section>div.article.left>div.article{}
+div.contents.cnt02>div.section>div.article.left>div.article>div.image{}
+div.contents.cnt02>div.section>div.article.left>div.article>div.text{}
+div.contents.cnt02>div.section>div.article.left>div.article>div.text>div.title{}
+div.contents.cnt02>div.section>div.article.left>div.article>div.text>div.servetext{}
+div.contents.cnt02>div.section>div.image{}
+div.contents.cnt02>div.section>div.article.right{}
+div.contents.cnt02>div.section>div.article.right>div.article{}
+div.contents.cnt02>div.section>div.article.right>div.article>div.text{}
+div.contents.cnt02>div.section>div.article.right>div.article>div.text>div.title{}
+div.contents.cnt02>div.section>div.article.right>div.article>div.text>div.servetext{}
+div.contents.cnt02>div.section>div.article.right>div.article>div.image{}
+
+
+/* Footer */
+div.footer{}
+div.footer>div.logo{}
+div.footer>div.logo>div.logo{}
+div.footer>div.logo>div.navigation{}
+div.footer>div.logo>div.navigation>div.menu{}
+div.footer>div.logo>div.sns{}
+div.footer>div.logo>div.sns>div.icon{}
+div.footer>div.logo>div.info{}
+div.footer>div.logo>div.info>div.text{}
+div.footer>div.logo>div.info>div.button{}
