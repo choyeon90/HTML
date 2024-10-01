@@ -1,10 +1,16 @@
 /* GNB */
+html{
+    font-size: 20px;
+}
 div.gnb{}
 div.gnb>div.logo{}
 div.gnb>div.menu{}
 div.gnb>div.menu>div.menu.menu01{}
 div.gnb>div.menu>div.menu.menu02{}
 div.gnb>div.menu>div.menu.menu03{}
+    div{
+    outline: 1px solid red;
+}
 
 /* Main */
 div.main{}

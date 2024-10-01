@@ -1,34 +1,64 @@
 
 /* header */
-div.header{
-    background-color: #FF7700;
+div.hdrwrap{
+    background-color: #ff8f8f;
 }
-div.header>div.logo{}
-div.header>div.menu{}
-div.header>div.menu>div.category{}
+div.hdrwrap>div.header{
+    width: 80%;
+    outline: 2px solid orange;
+    margin: 0 auto;
+}
+div.hdrwrap>div.header>div.logo{
+
+}
+div.hdrwrap>div.header>div.menu{}
+div.hdrwrap>div.header>div.menu>div.category{}
 
 
 /* Navigation */
-div.navigation{}
-div.navigation>div.nav{}
-div.navigation>div.nav>div.title{}
-div.navigation>div.nav>div.servemenu{}
-div.navigation>div.nav>div.servemenu>menu{}
+div.navwrap{
+    background-color: #828282;
+}
+div.navwrap>div.navigation{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+div.navwrap>div.navigation>div.nav{}
+div.navwrap>div.navigation>div.nav>div.title{}
+div.navwrap>div.navigation>div.nav>div.servemenu{}
+div.navwrap>div.navigation>div.nav>div.servemenu>menu{}
 
 
 
 /* Main */
-div.main{}
-div.main>div.image{}
-div.main>div.text{}
-div.main>div.text>div.title{}
-div.main>div.text>div.memo{}
-div.main>div.text>div.memo>div.text{}
-div.main>div.text>div.memo>div.button{}
-div.main>div.text>div.button{}
+div.mainwrap{
+    background-color: #dcdcdc;
+}
+div.mainwrap>div.main{
+    width: 80%;
+    margin: 0 auto;
+}
+div.mainwarp>div.main>div.image{}
+div.mainwarp>div.main>div.text{}
+div.mainwarp>div.main>div.text>div.title{}
+div.mainwarp>div.main>div.text>div.memo{}
+div.mainwarp>div.main>div.text>div.memo>div.text{}
+div.mainwarp>div.main>div.text>div.memo>div.button{}
+div.mainwarp>div.main>div.text>div.button{}
 
+/* content  공통 */
 
+div.contentswrap{
+    background-color: #f7ff88;
+}
+div.contentswrap>div.contents{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
 /* Contents Cnt01 */
+
 div.contents.cnt01{}
 div.contents.cnt01>div.header{}
 div.contents.cnt01>div.header>div.title{}
@@ -69,6 +99,9 @@ div.banner>div.image{}
 
 
 /* Contents Cnt02 */
+div.contentswrap.cntwrap02{
+    background-color: #b5d8ff;
+}
 div.contents.cnt02{}
 div.contents.cnt02>div.header{}
 div.contents.cnt02>div.header>div.title{}
@@ -107,15 +140,22 @@ div.contents.cnt02>div.section>div.artright>div.article.fox3>div.text{}
 
 
 /* Footer */
-div.footer{}
-div.footer>div.logo{}
-div.footer>div.logo>div.logo{}
-div.footer>div.logo>div.menu{}
-div.footer>div.logo>div.menu>div.category{}
-div.footer>div.sns{}
-div.footer>div.sns>div.icon.sns1{}
-div.footer>div.sns>div.icon.sns2{}
-div.footer>div.sns>div.icon.sns3{}
-div.footer>div.info{}
-div.footer>div.info>div.text{}
-div.footer>div.info>div.button{}
+div.footerwrap{
+    background-color: #b56060;
+}
+div.footerwrap>div.footer{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+div.footerwrap>div.footer>div.logo{}
+div.footerwrap>div.footer>div.logo>div.logo{}
+div.footerwrap>div.footer>div.logo>div.menu{}
+div.footerwrap>div.footer>div.logo>div.menu>div.category{}
+div.footerwrap>div.footer>div.sns{}
+div.footerwrap>div.footer>div.sns>div.icon.sns1{}
+div.footerwrap>div.footer>div.sns>div.icon.sns2{}
+div.footerwrap>div.footer>div.sns>div.icon.sns3{}
+div.footerwrap>div.footer>div.info{}
+div.footerwrap>div.footer>div.info>div.text{}
+div.footerwrap>div.footer>div.info>div.button{}
