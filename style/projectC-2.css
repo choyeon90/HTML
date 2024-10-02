@@ -1,0 +1,122 @@
+
+
+/* Header */
+
+div.hedaerwrap{
+    background-color: #B0A0B2;
+}
+div.hedaerwrap>div.header{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+div.headerwrap>div.header>div.logo{}
+div.headerwrap>div.header>div.navigation{}
+div.hedaerwrap>div.header>div.navigation>div.menu{
+    color: #fff;
+}
+
+
+/* Contents Cnt01 */
+div.contentswrap.cntwrap01{
+    background-color: #fff;
+}
+div.contentswrap.cntwrap01>div.contents.cnt01{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.header>div.title{
+    font-size: 24px;
+    font-style: bold;
+    margin-top: 20px;
+
+}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.header>div.serve{
+    font-size: 0.8rem;
+    color: rgb(70, 66, 66);
+    margin-bottom: 20px;
+}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article{
+    border: 1px solid green;
+}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.image{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.text{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.text>div.title{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.text>div.servetitle{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.text>div.servetext{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.text>div.sns{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec01>div.article>div.text>div.sns>div.icon{}
+
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec02{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec02>div.article{
+    border: 1px solid green;
+}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec02>div.article>div.image{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec02>div.article>div.title{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec02>div.article>div.servetext{}
+div.contentswrap.cntwrap01>div.contents.cnt01>div.section>div.section.sec02>div.article>div.sns{}
+
+
+/* Contents Cnt02 */
+div.contentswrap.cntwrap02{
+    background-color: #B0A0B2;
+}
+div.contentswrap.cntwrap02>div.contents.cnt02{
+    width: 80%;
+    margin: 0 auto;
+}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.header{
+    color: #fff;
+}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.header>div.title{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.header>div.servetext{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article>div.image{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article>div.textwrap{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article>div.textwrap>div.title{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article>div.textwrap>div.servetitle{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article>div.textwrap>div.servetext{}
+div.contentswrap.cntwrap02>div.contents.cnt02>div.section>div.article>div.textwrap>div.button{}
+
+/* Contents Cnt03 */
+div.contentswrap.cntwrap03{
+    background-color: #fff;
+}
+div.contentswrap.cntwrap03>div.contents.cnt03{
+    width: 80%;
+    margin: 0 auto;
+}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.header{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.header>div.title{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.header>div.servetext{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.section{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.section>div.article{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.section>div.article>div.image{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.section>div.article>div.title{}
+div.contentswrap.cntwrap03>div.contents.cnt03>div.section>div.article>div.servetext{}
+
+
+/* Footerwrap */
+div.footerwrap{
+    background-color: #B0A0B2;
+}
+div.footerwrap>div.footer{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+div.footerwrap>div.footer>div.logo{}
+div.footerwrap>div.footer>div.info{}
+div.footerwrap>div.footer>div.sns{}
+div.footerwrap>div.footer>div.sns>div.icon{}
