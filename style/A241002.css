@@ -1,0 +1,121 @@
+/* Headerwrap */
+div.headerwrap{
+    background-color: #FF7900;
+    color: #ffffff;
+}
+div.headerwrap>div.header{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+div.headerwrap>div.header>div.logo{}
+div.headerwrap>div.header>div.categorywrap{}
+div.headerwrap>div.header>div.categorywrap>div.category{}
+
+
+/*Naviwrap*/
+div.naviwrap{
+    background-color: #464646;
+    color: #ffffff;
+}
+div.naviwrap>div.navigation{
+    width: 80%;
+    margin: 0 auto;
+}
+div.naviwrap>div.navigation>div.nav{}
+div.naviwrap>div.navigation>div.nav>div.title{}
+div.naviwrap>div.navigation>div.nav>div.menu{}
+
+
+/*Mainwrap*/
+div.mainwrap{
+    background-color: #cacaca;
+}
+div.mainwrap>div.image{}
+div.mainwrap>div.textarea{
+    width: 80%;
+    margin: 0 auto;
+}
+div.mainwrap>div.textarea>div.logo{}
+div.mainwrap>div.textarea>div.textwrap{}
+div.mainwrap>div.textarea>div.textwrap>div.text{}
+div.mainwrap>div.textarea>div.textwrap>div.button{}
+div.mainwrap>div.textarea>div.button{}
+
+
+/*Contentswrap-cnt01*/
+div.contentswrap.cnt01wrap{}
+div.contentswrap.cnt01wrap>div.contents.cnt01{
+    width: 80%;
+    margin: 0 auto;
+}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.title{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.servetext{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.image{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.title{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.servetext{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.sns{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.sns>div.icon{}
+
+
+/*Banner*/
+div.bannerwrap{
+    background-color: #525252;
+}
+div.bannerwrap>div.banner{
+    width: 80%;
+    margin: 0 auto;
+}
+div.bannerwrap>div.banner>div.image{}
+
+
+/*Contentswrap-cnt02*/
+div.contentswrap.cnt02wrap{}
+div.contentswrap.cnt02wrap>div.contents.cnt02{
+    width: 80%;
+    margin: 0 auto;
+}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.header{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.header>div.title{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.header>div.servetext{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.image{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.title{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.servetext{}
+
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.image{}
+
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.title{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.servetext{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.image{}
+
+
+
+/*Footerwrap*/
+div.footerwrap{
+    background-color: #303030;
+    color: #ffffff;
+}
+div.footerwrap>div.footer{
+    width: 80%;
+    margin: 0 auto;
+}
+div.footerwrap>div.footer>div.logowrap{}
+div.footerwrap>div.footer>div.logowrap>div.logo{}
+div.footerwrap>div.footer>div.logowrap>div.navi{}
+div.footerwrap>div.footer>div.logowrap>div.navi>div.menu{}
+div.footerwrap>div.footer>div.sns{}
+div.footerwrap>div.footer>div.sns>div.icon{}
+div.footerwrap>div.footer>div.infowrap{}
+div.footerwrap>div.footer>div.infowrap>div.info{}
+div.footerwrap>div.footer>div.infowrap>div.csi{}
