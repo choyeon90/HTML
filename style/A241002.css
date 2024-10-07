@@ -5,11 +5,20 @@ div.headerwrap{
 }
 div.headerwrap>div.header{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
-    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
 }
-div.headerwrap>div.header>div.logo{}
-div.headerwrap>div.header>div.categorywrap{}
+div.headerwrap>div.header>div.logo{
+    line-height: 80px;
+}
+div.headerwrap>div.header>div.categorywrap{
+    display: flex;
+    width: calc(100% / 12 * 7);
+    justify-content: space-between;
+    line-height: 80px;
+}
 div.headerwrap>div.header>div.categorywrap>div.category{}
 
 
@@ -20,9 +29,15 @@ div.naviwrap{
 }
 div.naviwrap>div.navigation{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
 }
-div.naviwrap>div.navigation>div.nav{}
+div.naviwrap>div.navigation>div.nav{
+    line-height: 40px;
+}
 div.naviwrap>div.navigation>div.nav>div.title{}
 div.naviwrap>div.navigation>div.nav>div.menu{}
 
@@ -34,26 +49,70 @@ div.mainwrap{
 div.mainwrap>div.image{}
 div.mainwrap>div.textarea{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
+    padding: calc(40px * 6) 0;
 }
-div.mainwrap>div.textarea>div.logo{}
-div.mainwrap>div.textarea>div.textwrap{}
-div.mainwrap>div.textarea>div.textwrap>div.text{}
-div.mainwrap>div.textarea>div.textwrap>div.button{}
-div.mainwrap>div.textarea>div.button{}
+div.mainwrap>div.textarea>div.logo{
+    line-height: 80px;
+    font-size: 48px;
+}
+div.mainwrap>div.textarea>div.textwrap{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+div.mainwrap>div.textarea>div.textwrap>div.text{
+    line-height: 40px;
+    width: calc(100% / 12 * 6);
+    /* width: 50%; */
+    border: 1px solid red;
+    height: 120px;
+    overflow: scroll;
+}
+div.mainwrap>div.textarea>div.textwrap>div.button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+div.mainwrap>div.textarea>div.button{
+    width: calc(100% / 12 * 2 + 20px);
+    text-align: center;
+    background-color: orange;
+    line-height: 40px;
+    border-radius: 40px;
+    margin-top: 80px;
+}
 
 
 /*Contentswrap-cnt01*/
 div.contentswrap.cnt01wrap{}
 div.contentswrap.cnt01wrap>div.contents.cnt01{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 div.contentswrap.cnt01wrap>div.contents.cnt01>div.header{}
-div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.title{}
-div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.servetext{}
-div.contentswrap.cnt01wrap>div.contents.cnt01>div.section{}
-div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.title{
+    line-height: 80px;
+    text-align: center;
+}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.servetext{
+    line-height: 20px;
+    width: calc(100% / 12 * 6);
+    margin: 0 auto;
+    height: 40px;
+    overflow: hidden;
+}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section{
+    display: flex;
+    justify-content: space-between;
+}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article{
+    width: calc(100% / 12 * 3 - 20px);
+    border: 1px solid red;
+}
 div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.image{}
 div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea{}
 div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.title{}
@@ -68,6 +127,7 @@ div.bannerwrap{
 }
 div.bannerwrap>div.banner{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 div.bannerwrap>div.banner>div.image{}
@@ -77,6 +137,7 @@ div.bannerwrap>div.banner>div.image{}
 div.contentswrap.cnt02wrap{}
 div.contentswrap.cnt02wrap>div.contents.cnt02{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.header{}
@@ -108,6 +169,7 @@ div.footerwrap{
 }
 div.footerwrap>div.footer{
     width: 80%;
+    max-width: 1080px;
     margin: 0 auto;
 }
 div.footerwrap>div.footer>div.logowrap{}
