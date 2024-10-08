@@ -1,0 +1,114 @@
+
+/*headerwrap*/
+div.headerwrap{
+    background-color: orange;
+
+}
+div.headerwrap>div.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+div.headerwrap>div.header>div.logo{
+    line-height: 80px;
+}
+div.headerwrap>div.header>div.categorywrap{
+    width: calc(100% / 12 * 6);
+    display: flex;
+    justify-content: space-between;
+}
+div.headerwrap>div.header>div.categorywrap>div.category{
+    line-height: 80px;
+}
+
+
+/*Naviwrap*/
+div.naviwrap{
+    background-color: #EEEEEE;
+}
+div.naviwrap>div.navigation{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+div.naviwrap>div.navigation>div.nav{}
+div.naviwrap>div.navigation>div.nav>div.title{}
+div.naviwrap>div.navigation>div.nav>div.menu{}
+
+
+/*Mainwrap*/
+div.mainwrap{}
+div.mainwrap>div.image{}
+div.mainwrap>div.textarea{}
+div.mainwrap>div.textarea>div.logo{}
+div.mainwrap>div.textarea>div.textwrap{}
+div.mainwrap>div.textarea>div.textwrap>div.text{}
+div.mainwrap>div.textarea>div.textwrap>div.button{}
+div.mainwrap>div.textarea>div.button{}
+
+
+/*Contentswrap cnt01wrap*/
+div.contentswrap.cnt01wrap{}
+div.contentswrap.cnt01wrap>div.contents.cnt01{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.title{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.header>div.servetext{}
+
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.image{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.title{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.servetext{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.sns{}
+div.contentswrap.cnt01wrap>div.contents.cnt01>div.section>div.article>div.textarea>div.sns>div.icon{}
+
+
+/*Bannerwrap*/
+div.bannerwrap{}
+div.bannerwrap>div.banner{}
+div.bannerwrap>div.banner>div.image{}
+
+
+/*Contentswrap cnt02wrap*/
+div.contentswrap.cnt02wrap{}
+div.contentswrap.cnt02wrap>div.contents.cnt02{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.header{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.header>div.title{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.header>div.servetext{}
+
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.image{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.title{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.servetext{}
+
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.title{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.servetext{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.image{}
+
+
+/*Footerwrap*/
+div.footerwrap{}
+div.footerwrap>div.footer{}
+div.footerwrap>div.footer>div.logowrap{}
+div.footerwrap>div.footer>div.logowrap>div.logo{}
+div.footerwrap>div.footer>div.logowrap>div.navi{}
+div.footerwrap>div.footer>div.logowrap>div.navi>div.menu{}
+
+div.footerwrap>div.footer>div.sns{}
+div.footerwrap>div.footer>div.sns>div.icon{}
+
+div.footerwrap>div.footer>div.infowrap{}
+div.footerwrap>div.footer>div.infowrap>div.info{}
+div.footerwrap>div.footer>div.infowrap>div.cs{}z
