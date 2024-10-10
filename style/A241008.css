@@ -186,7 +186,7 @@ div.contentswrap.cnt02wrap>div.contents.cnt02{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
-    padding: ;
+    padding: 120px 0;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.header{}
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.header>div.title{
@@ -209,25 +209,39 @@ div.contentswrap.cnt02wrap>div.contents.cnt02>div.section{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    align-items: center;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft{
     width: calc(100% / 12 * 4);
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article{
+    line-height: 80px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    justify-content: start;
+    margin-top: 20px;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.image{
     width: 80px;
     height: 80px;
     background-color: gray;
+    
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text{
-    width: calc(100%);
+    width: 250px;
+    margin-left: 20px;
+
 }
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.title{}
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.servetext{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.title{
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.text>div.servetext{
+    line-height: 20px;
+    font-size: 12px;
+
+}
 
 
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.image{
@@ -240,11 +254,26 @@ div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.image{
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright{
     width: calc(100% / 12 * 4);
 }
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article{}
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text{}
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.title{}
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.servetext{}
-div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.image{}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article{
+    display: flex;
+    justify-content: end;
+}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text{
+    width: 250px;
+    margin-right: 20px;
+}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.title{
+    line-height: 40px;
+}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.servetext{
+    line-height: 20px;
+    font-size: 12px;
+}
+div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.image{
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+}
 
 
 /*Footerwrap*/
