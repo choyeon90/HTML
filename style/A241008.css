@@ -212,16 +212,17 @@ div.contentswrap.cnt02wrap>div.contents.cnt02>div.section{
     align-items: center;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft{
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4 - 20px);
+    padding: 40px 0;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article{
     line-height: 80px;
     display: flex;
     justify-content: start;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>div.article>div.image{
-    width: 80px;
+    width: calc(100% / 4);
     height: 80px;
     background-color: gray;
     
@@ -245,9 +246,9 @@ div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artleft>di
 
 
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.image{
-    width: calc(100% / 12 * 4);
-    height: 400px;
-    background-color: gray;
+    width: calc(100% / 12 * 4 - 20px);
+    height: calc(40px * 10);
+    background-color: red;
 }
 
 
@@ -257,6 +258,7 @@ div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright{
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article{
     display: flex;
     justify-content: end;
+    margin-top: 40px;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text{
     width: 250px;
@@ -264,29 +266,63 @@ div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>d
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.title{
     line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.text>div.servetext{
     line-height: 20px;
     font-size: 12px;
+    text-align: right;
 }
 div.contentswrap.cnt02wrap>div.contents.cnt02>div.section>div.article.artright>div.article>div.image{
-    width: 80px;
-    height: 80px;
+    width: calc(100% / 4);
+    height: calc(40px * 2);
     background-color: gray;
 }
 
 
 /*Footerwrap*/
-div.footerwrap{}
-div.footerwrap>div.footer{}
-div.footerwrap>div.footer>div.logowrap{}
+div.footerwrap{
+    background-color: black;
+    color: #F3F3F3;
+}
+div.footerwrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+div.footerwrap>div.footer>div.logowrap{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
 div.footerwrap>div.footer>div.logowrap>div.logo{}
-div.footerwrap>div.footer>div.logowrap>div.navi{}
+div.footerwrap>div.footer>div.logowrap>div.navi{
+    width: calc(100% / 12 * 5);
+    display: flex;
+    justify-content: space-between;
+}
 div.footerwrap>div.footer>div.logowrap>div.navi>div.menu{}
 
-div.footerwrap>div.footer>div.sns{}
-div.footerwrap>div.footer>div.sns>div.icon{}
+div.footerwrap>div.footer>div.sns{
+    width: calc(100% / 12 * 2);
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+div.footerwrap>div.footer>div.sns>div.icon{
+    width: calc(100% / 4);
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
 
-div.footerwrap>div.footer>div.infowrap{}
+div.footerwrap>div.footer>div.infowrap{
+    display: flex;
+    justify-content: space-between;
+}
 div.footerwrap>div.footer>div.infowrap>div.info{}
 div.footerwrap>div.footer>div.infowrap>div.cs{}z
