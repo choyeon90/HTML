@@ -1,4 +1,4 @@
-/* hdrwrap */
+/* 헤더 */
 div.hdrwrap{
     background-color: black;
     color: aliceblue;
@@ -12,18 +12,21 @@ div.hdrwrap>div.hdr{
 }
 div.hdrwrap>div.hdr>h1{
     line-height: 80px;
+    text-transform: uppercase;
 }
-div.hdrwrap>div.hdr>ul{
-    line-height: 80px;
-    width: calc(100% / 12 * 4);
+div.hdrwrap>div.hdr>ul.navi{
+    width: calc(100% / 12 *4);
     display: flex;
     justify-content: space-between;
+
 }
-div.hdrwrap>div.hdr>ul>li{}
-div.hdrwrap>div.hdr>ul>li>i{}
+div.hdrwrap>div.hdr>ul.navi>li{
+    line-height: 80px;
+    text-transform: uppercase;
+}
+div.hdrwrap>div.hdr>ul.navi>li>i{}
 
-
-/* 컨텐츠 공통요소 */
+/* 컨텐츠 공통 */
 div.cntwrap{}
 div.cntwrap>div.content{
     width: 80%;
@@ -34,68 +37,118 @@ div.cntwrap>div.content>div.header{}
 div.cntwrap>div.content>div.header>h2{
     line-height: 80px;
     text-align: center;
-    font-size: 32px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
 }
 div.cntwrap>div.content>div.header>p{
-    margin: 0 auto;
     width: calc(100% / 12 * 6);
     height: 40px;
     line-height: 20px;
-    text-align: center;
+    margin: 0 auto;
     overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(100, 100, 100);
 }
+div.cntwrap>div.content>div.section>div.article>div.image{}
 
 
-/* Cntwrap cnt01 */
+/* 컨텐츠01 */
 div.cntwrap{}
 div.cntwrap>div.content.cnt01{}
-div.cntwrap>div.content.cnt01>div.header{}
+div.cntwrap>div.content.cnt01>div.header{
+    margin-top: 160px;
+}
 div.cntwrap>div.content.cnt01>div.header>h2{}
 div.cntwrap>div.content.cnt01>div.header>p{}
 
+div.cntwrap>div.content.cnt01>div.section{
+    margin-top: 80px;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop{
+    display: flex;
+    justify-content: space-between;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article{
+    width: calc(50% - 10px);
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image{
+    height: calc(40px * 8);
+    background-color: #868686;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image.i1{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image.i2{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>h3{
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>h4{
+    height: 40px;
+    line-height: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    margin-top: 12px;
 
-div.cntwrap>div.content.cnt01>div.section{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>h3{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>h4{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>p{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>div.icons{}
-div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>div.icons>i{}
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>p{
+    height: 80px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #868686;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>div.icons{
+    margin-top: 15px;
+    width: calc(100% / 12 * 1.5);
+    display: flex;
+    justify-content: space-between;
+}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>div.icons>i{
+    font-size: 24px;
+}
+
+div.cntwrap>div.content01>div.section>div.artbottom{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.image{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.image.i1{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.image.i2{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>h3{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>h4{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>p{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>div.icons{}
+div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>div.icons>i{}
 
 
-div.cntwrap>div.content.cnt01>div.section>div.artbottom{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.image{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>h3{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>p{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>div.icons{}
-div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>div.icons>i{}
-
-
-/* Cntwrap cnt02 */
+/* 컨텐츠02 */
 div.cntwrap{}
 div.cntwrap>div.content.cnt02{}
+
 div.cntwrap>div.content.cnt02>div.header{}
 div.cntwrap>div.content.cnt02>div.header>h2{}
 div.cntwrap>div.content.cnt02>div.header>p{}
 
-div.cntwrap>div.content.cnt02>div.header>div.section{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.image{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>h3{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>h4{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>p{}
-div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>div.button{}
+div.cntwrap>div.content.cnt02>div.section{}
+div.cntwrap>div.content.cnt02>div.section>div.article{}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.image{}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text{}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>h3{}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>h4{}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>p{}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>div.button{}
 
 
-/* Cntwrap cnt03 */
+/* 컨텐츠03 */
 div.cntwrap{}
 div.cntwrap>div.content.cnt03{}
+
 div.cntwrap>div.content.cnt03>div.header{}
 div.cntwrap>div.content.cnt03>div.header>h2{}
 div.cntwrap>div.content.cnt03>div.header>p{}
@@ -103,12 +156,15 @@ div.cntwrap>div.content.cnt03>div.header>p{}
 div.cntwrap>div.content.cnt03>div.section{}
 div.cntwrap>div.content.cnt03>div.section>div.article{}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.image{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i1{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i2{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i3{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i4{}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.text{}
-div.cntwrap>div.content.cnt03>div.section>div.article>div.text>h4{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text>h3{}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.text>p{}
 
-
-/* Footer */
+/* 푸터 */
 div.footerwrap{}
 div.footerwrap>div.footer{
     width: 80%;
