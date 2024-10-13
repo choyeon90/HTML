@@ -1,0 +1,121 @@
+/* hdrwrap */
+div.hdrwrap{
+    background-color: black;
+    color: aliceblue;
+}
+div.hdrwrap>div.hdr{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+div.hdrwrap>div.hdr>h1{
+    line-height: 80px;
+}
+div.hdrwrap>div.hdr>ul{
+    line-height: 80px;
+    width: calc(100% / 12 * 4);
+    display: flex;
+    justify-content: space-between;
+}
+div.hdrwrap>div.hdr>ul>li{}
+div.hdrwrap>div.hdr>ul>li>i{}
+
+
+/* 컨텐츠 공통요소 */
+div.cntwrap{}
+div.cntwrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.cntwrap>div.content>div.header{}
+div.cntwrap>div.content>div.header>h2{
+    line-height: 80px;
+    text-align: center;
+    font-size: 32px;
+}
+div.cntwrap>div.content>div.header>p{
+    margin: 0 auto;
+    width: calc(100% / 12 * 6);
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* Cntwrap cnt01 */
+div.cntwrap{}
+div.cntwrap>div.content.cnt01{}
+div.cntwrap>div.content.cnt01>div.header{}
+div.cntwrap>div.content.cnt01>div.header>h2{}
+div.cntwrap>div.content.cnt01>div.header>p{}
+
+
+div.cntwrap>div.content.cnt01>div.section{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>h3{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>h4{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>p{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>div.icons{}
+div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.texts>div.icons>i{}
+
+
+div.cntwrap>div.content.cnt01>div.section>div.artbottom{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.image{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>h3{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>p{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>div.icons{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.texts>div.icons>i{}
+
+
+/* Cntwrap cnt02 */
+div.cntwrap{}
+div.cntwrap>div.content.cnt02{}
+div.cntwrap>div.content.cnt02>div.header{}
+div.cntwrap>div.content.cnt02>div.header>h2{}
+div.cntwrap>div.content.cnt02>div.header>p{}
+
+div.cntwrap>div.content.cnt02>div.header>div.section{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.image{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>h3{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>h4{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>p{}
+div.cntwrap>div.content.cnt02>div.header>div.section>div.article>div.text>div.button{}
+
+
+/* Cntwrap cnt03 */
+div.cntwrap{}
+div.cntwrap>div.content.cnt03{}
+div.cntwrap>div.content.cnt03>div.header{}
+div.cntwrap>div.content.cnt03>div.header>h2{}
+div.cntwrap>div.content.cnt03>div.header>p{}
+
+div.cntwrap>div.content.cnt03>div.section{}
+div.cntwrap>div.content.cnt03>div.section>div.article{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.image{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text>h4{}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text>p{}
+
+
+/* Footer */
+div.footerwrap{}
+div.footerwrap>div.footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.footerwrap>div.footer>h2{}
+div.footerwrap>div.footer>p{}
+div.footerwrap>div.footer>div.sns{}
+div.footerwrap>div.footer>div.sns>i{}
