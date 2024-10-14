@@ -52,6 +52,14 @@ div.cntwrap>div.content>div.header>p{
     color: rgb(100, 100, 100);
 }
 div.cntwrap>div.content>div.section>div.article>div.image{}
+div.cntwrap>div.content>div.section>div.article>div.text{}
+div.cntwrap>div.content>div.section>div.article>div.text>h3{
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+div.cntwrap>div.content>div.section>div.article>div.text>h4{}
+div.cntwrap>div.content>div.section>div.article>div.text>p{}
 
 
 /* 컨텐츠01 */
@@ -75,7 +83,7 @@ div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article{
 }
 div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image{
     height: calc(40px * 8);
-    background-color: #868686;
+    background-color: #acacac;
 }
 div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image.i1{}
 div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.image.i2{}
@@ -86,7 +94,7 @@ div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text{
 }
 div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>h3{
     line-height: 40px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
 }
 div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>h4{
@@ -114,64 +122,210 @@ div.cntwrap>div.content.cnt01>div.section>div.arttop>div.article>div.text>div.ic
     font-size: 24px;
 }
 
-div.cntwrap>div.content01>div.section>div.artbottom{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.image{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.image.i1{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.image.i2{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>h3{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>h4{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>p{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>div.icons{}
-div.cntwrap>div.content01>div.section>div.artbottom>div.article>div.text>div.icons>i{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article{
+    width: calc(100% / 3 - 10px);
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.image{
+    height: calc(40px * 8);
+    background-color: #acacac;
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.image.i1{
+
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.image.i2{}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.text{
+    padding: 10px 10px;
+    width: calc(100% / 4 * 4);
+
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.text>h3{
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.text>p{
+    line-height: 20px;
+    height: 80px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #868686;
+    text-align: center;
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.text>div.icons{
+    width: calc(100% / 6);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+div.cntwrap>div.content.cnt01>div.section>div.artbottom>div.article>div.text>div.icons>i{
+    line-height: 40px;
+    font-size: 24px;
+}
 
 
 /* 컨텐츠02 */
 div.cntwrap{}
-div.cntwrap>div.content.cnt02{}
+div.cntwrap>div.content.cnt02{
+    width: 100%;
+    max-width: none;
+}
 
-div.cntwrap>div.content.cnt02>div.header{}
-div.cntwrap>div.content.cnt02>div.header>h2{}
-div.cntwrap>div.content.cnt02>div.header>p{}
+div.cntwrap>div.content.cnt02>div.header{
+    background-color: #6655ff;
+    padding-top: 120px;
+    padding-bottom: 240px;
+}
+div.cntwrap>div.content.cnt02>div.header>h2{
+    color: aliceblue;
+}
+div.cntwrap>div.content.cnt02>div.header>p{
+    color: aliceblue;
+}
 
-div.cntwrap>div.content.cnt02>div.section{}
-div.cntwrap>div.content.cnt02>div.section>div.article{}
-div.cntwrap>div.content.cnt02>div.section>div.article>div.image{}
-div.cntwrap>div.content.cnt02>div.section>div.article>div.text{}
-div.cntwrap>div.content.cnt02>div.section>div.article>div.text>h3{}
-div.cntwrap>div.content.cnt02>div.section>div.article>div.text>h4{}
-div.cntwrap>div.content.cnt02>div.section>div.article>div.text>p{}
-div.cntwrap>div.content.cnt02>div.section>div.article>div.text>div.button{}
+div.cntwrap>div.content.cnt02>div.section{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: -160px;
+}
+div.cntwrap>div.content.cnt02>div.section>div.article{
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2)}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.image{
+    width: calc(50%);
+    height: 300px;
+    background-color: #acacac;
+}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text{
+    width: calc(50%);
+    height: 300px;
+    padding: 40px calc(50% / 6);
+    text-align: center;
+}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>h3{
+    line-height: 40px;
+    text-transform: capitalize;
+}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>h4{
+    line-height: 20px;
+    height: 40px;
+    font-size: 14px;
+}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>p{
+    height: 90px;
+    line-height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+}
+div.cntwrap>div.content.cnt02>div.section>div.article>div.text>div.button{
+    width: calc(50% / 6 * 6);
+    height: 40px;
+    line-height: 40px;
+    background-color: #3b24c0;
+    color: #ffffff;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
 
 
 /* 컨텐츠03 */
 div.cntwrap{}
-div.cntwrap>div.content.cnt03{}
+div.cntwrap>div.content.cnt03{
+    margin-top: 160px;
+}
 
 div.cntwrap>div.content.cnt03>div.header{}
 div.cntwrap>div.content.cnt03>div.header>h2{}
 div.cntwrap>div.content.cnt03>div.header>p{}
 
-div.cntwrap>div.content.cnt03>div.section{}
-div.cntwrap>div.content.cnt03>div.section>div.article{}
-div.cntwrap>div.content.cnt03>div.section>div.article>div.image{}
+div.cntwrap>div.content.cnt03>div.section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+div.cntwrap>div.content.cnt03>div.section>div.article{
+    width: calc(100% / 4 - 10px);
+    height: 240px;
+    overflow: hidden;
+
+}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.image{
+    background-color: #7dabd6;
+    height: 240px;
+}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i1{}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i2{}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i3{}
 div.cntwrap>div.content.cnt03>div.section>div.article>div.image.i4{}
-div.cntwrap>div.content.cnt03>div.section>div.article>div.text{}
-div.cntwrap>div.content.cnt03>div.section>div.article>div.text>h3{}
-div.cntwrap>div.content.cnt03>div.section>div.article>div.text>p{}
+
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text{
+    padding: 40px 20px;
+    height: 240px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: margin-top 0.5s;
+}
+div.cntwrap>div.content.cnt03>div.section>div.article:hover>div.text{
+    margin-top: -240px;
+}
+
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text>h3{
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+div.cntwrap>div.content.cnt03>div.section>div.article>div.text>p{
+    line-height: 20px;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
 
 /* 푸터 */
-div.footerwrap{}
+div.footerwrap{
+    background-color: #000000;
+}
 div.footerwrap>div.footer{
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
+    color: #ffffff;
+    margin-top: 120px;
+    padding: 40px 0;
 }
-div.footerwrap>div.footer>h2{}
-div.footerwrap>div.footer>p{}
-div.footerwrap>div.footer>div.sns{}
-div.footerwrap>div.footer>div.sns>i{}
+div.footerwrap>div.footer>h2{
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.footerwrap>div.footer>p{
+    line-height: 20px;
+    height: 40px;
+    width: calc(100% / 12 * 6);
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 14px;
+}
+div.footerwrap>div.footer>div.sns{
+    width: calc(100% / 12 * 1.5 - 20px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+div.footerwrap>div.footer>div.sns>i{
+    font-size: 24px;
+}
