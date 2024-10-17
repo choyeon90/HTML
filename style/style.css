@@ -1,0 +1,77 @@
+/* 기본 스타일링 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: relative; /* 하위 메뉴를 헤더에 맞춰 배치하기 위해 */
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    margin: 0 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+    background-color: #555;
+}
+
+/* 하위 메뉴 스타일: 헤더의 최하단에 위치 */
+.submenu {
+    display: none; /* 기본적으로 숨김 */
+    position: absolute; /* 메뉴 항목 바로 아래에 위치 */
+    top: 100%; /* 상위 메뉴 항목의 아래에 위치 */
+    left: 0;
+    background-color: #333; /* 배경색 */
+    width: 100vw; /* 화면 너비에 맞추기 */
+    list-style: none;
+    padding: 0;
+    z-index: 1000; /* 다른 요소보다 위에 표시 */
+}
+
+.submenu li {
+    border-bottom: 1px solid #444;
+}
+
+.submenu li a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #555;
+}
+
+/* 메뉴 아이템 hover 시 하위 메뉴 보이기 */
+.menu-item:hover .submenu {
+    display: block;
+}
