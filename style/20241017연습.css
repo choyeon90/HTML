@@ -71,6 +71,12 @@ div.gnbwrap>div.gnb>ul.sns>i{
     ul.menu>li{
         width: 100%;
         text-align: center;
-
     }
+
+    div.gnbwrap>div.gnb>ul.sns{
+        width: 10%;
+        margin: 0 auto;
+    }
+
+
 }
