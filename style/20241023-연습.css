@@ -36,7 +36,21 @@ div.allwrap>div.hdrwrap>div.hdr>ul.navbar>li{
     line-height: 80px;
     text-transform: uppercase;
     color: #a0b0c9;
-    transition: all 0.1s;
+    transition: all 0.3s;
+    position: relative;
+}
+div.allwrap>div.hdrwrap>div.hdr>ul.navbar>li::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: white;
+    left: 0;
+    bottom: 25px;
+    transition: width 0.3s ease;
+}
+div.allwrap>div.hdrwrap>div.hdr>ul.navbar>li:hover::after {
+    width: 100%;
 }
 
 div.allwrap>div.hdrwrap>div.hdr>ul.navbar>li:hover{
