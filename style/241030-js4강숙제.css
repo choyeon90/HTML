@@ -1,0 +1,36 @@
+
+div.alertbox{
+    display: none;
+
+}
+
+div.alertbox>div.contents{
+    width: 400px;
+    height: 50px;
+    background-color: #ffcece;
+    border: #e29898;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0 20px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.alertbox>div.contents>button{
+    outline: none;
+    background: #be2c2c;
+    border: none;
+    color: white;
+}
+
+
+div.alert>h2{
+    text-transform: capitalize;
+    font-size: 14px;
+
+}
+div.alert>button{
+    height: 20px;
+}

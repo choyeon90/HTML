@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/241030-js4강숙제.css">
+    <link rel="stylesheet" href="./style/reset.css">
+</head>
+<body>
+
+    <div class="alertbox" id="alert">
+        <div class="contents">
+            <h2 id="title">alert 박스</h2>
+            <button onclick="document.getElementById('alert').style.display = 'none';">닫기</button>
+        </div>
+    </div>
+
+    <button onclick="알림창1열기('아이디 입력해라')">버튼1</button>
+    <button onclick="알림창1열기('비번 입력해라')">버튼2</button>
+
+</body>
+
+<script>
+    function 알림창1열기(구멍){
+        document.getElementById('title').innerHTML = 구멍;
+        document.getElementById('alert').style.display = 'block';
+    }
+
+
+    알림창1열기('아이디 입력해라');
+    알림창1열기('비번 입력해라');
+    // function 알림창2열기(){
+    //     document.getElementById('title').innerHTML = '비밀번호를 입력하세요';
+    //     document.getElementById('alert').style.display = 'block';
+    // }
+
+</script>
