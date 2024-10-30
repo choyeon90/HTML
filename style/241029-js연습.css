@@ -9,3 +9,10 @@ div.alertbox {
     padding-left: 10px;
     display: none;
 }
+
+
+button.close{
+    float: right;
+    border: none;
+    outline: none;
+}
