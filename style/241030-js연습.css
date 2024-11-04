@@ -29,7 +29,13 @@ div.hdrwrap>div.hdr>div.navright>ul.navbar>li{
 }
 div.hdrwrap>div.hdr>div.navright>button{
     height: 44px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
 }
+
+
 
 
 

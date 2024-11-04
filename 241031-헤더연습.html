@@ -12,17 +12,22 @@
     <div class="hdrwrap">
         <div class="hdr">
             <h1>logo here</h1>
-            <ul class="navbar">
-                <li>Company</li>
-                <li>Works</li>
-                <li>Solution</li>
-                <li>Recruit</li>
-            </ul>
-            <button>전체메뉴</button>
+            <div class="navright">
+                <ul class="navbar">
+                    <li>Company</li>
+                    <li>Works</li>
+                    <li>Solution</li>
+                    <li>Recruit</li>
+                </ul>
+                <a href="#" class="menuToggle" onclick="menuOpen()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+
+            </div>
         </div>
     </div>
 
-    <div class="megadropwrap">
+    <div class="megadropwrap" id="megadrop">
         <div class="megadrop">
             <div class="group">
                 <div class="title">COMPANY</div>
@@ -58,9 +63,11 @@
                     <li>앱 개발</li>
                 </ul>
             </div>
-            <button>X</button>
+            <button onclick="document.getElementById('megadrop').style.display = 'none';">X</button>
         </div>
 
     </div>
+
+    <script src="./js/241031-헤더연습.js"></script>
 </body>
 </html>

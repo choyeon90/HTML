@@ -9,19 +9,56 @@ div.hdrwrap>div.hdr{
     margin: auto;
 
     display: flex;
+    justify-content: space-between;
+
+    color: white;
 }
-div.hdrwrap>div.hdr>h1{}
-div.hdrwrap>div.hdr>ul.navbar{}
-div.hdrwrap>div.hdr>ul.navbar>li{}
-div.hdrwrap>div.hdr>button{}
+div.hdrwrap>div.hdr>h1{
+    line-height: 80px;
+}
+div.hdrwrap>div.hdr>div.navright{
+    width: calc(100% / 12 * 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+div.hdrwrap>div.hdr>div.navright>ul.navbar{
+    width: calc(80%);
+    display: flex;
+    justify-content: space-between;
+}
+div.hdrwrap>div.hdr>div.navright>ul.navbar>li{
+    line-height: 80px;
+}
+div.hdrwrap>div.hdr>div.navright>{}
 
 
 
 
-div.megadropwrap{}
-div.megadropwrap>div.megadrop{}
+div.megadropwrap{
+    background-color: #142D52;
+    display: none;
+}
+div.megadropwrap>div.megadrop{
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    padding: 40px 0;
+}
 div.megadropwrap>div.megadrop>div.group{}
-div.megadropwrap>div.megadrop>div.group>div.title{}
-div.megadropwrap>div.megadrop>div.group>ul.menuwrap{}
-div.megadropwrap>div.megadrop>div.group>ul.menuwrap>li{}
+div.megadropwrap>div.megadrop>div.group>div.title{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+div.megadropwrap>div.megadrop>div.group>ul.menuwrap{
+    margin-top: 30px;
+}
+div.megadropwrap>div.megadrop>div.group>ul.menuwrap>li{
+    line-height: 40px;
+}
 div.megadropwrap>div.megadrop>div.button{}
